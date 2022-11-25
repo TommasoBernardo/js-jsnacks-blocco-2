@@ -12,7 +12,7 @@ for(let i = 0 ; i < 6 ; i++){
     if((user % 2) === 0){
         console.log('il numero è pari');
     }else{
-        number.push(user);
+        numbers.push(user);
         console.log('il numero è dispari');
     }
 }
