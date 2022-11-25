@@ -9,8 +9,9 @@ let media = 0;
 
 for(let i = 0 ; i < 10 ; i++){
     sum += numbers[i];
-    media =sum/[i];
 }
+
+media =sum/10;
 
 console.log(sum);
 console.log(media);
