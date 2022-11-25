@@ -9,9 +9,7 @@ const numbers = [];
 for(let i = 0 ; i < 6 ; i++){
     let user = prompt('inserisci un numero');
 
-    if((user % 2) === 0){
-        console.log('il numero è pari');
-    }else{
+    if((user % 2) === 1){
         numbers.push(user);
         console.log('il numero è dispari');
     }
