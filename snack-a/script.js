@@ -4,7 +4,7 @@
     se è dispari inseriscilo nell'array.
 */
 
-const number = [];
+const numbers = [];
 
 for(let i = 0 ; i < 6 ; i++){
     let user = prompt('inserisci un numero');
@@ -17,4 +17,4 @@ for(let i = 0 ; i < 6 ; i++){
     }
 }
 
-console.log(number);
+console.log(numbers);
